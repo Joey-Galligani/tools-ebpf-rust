@@ -1,6 +1,10 @@
-# Network Metrics ebpf
+# Tools using eBPF in Rust
 
-Rust-based eBPF to do network metrics.
+## 1. Network Capture tool
+
+Using XDP, this app copie and past all paquets in pcap file.
+
+---
 
 ## Build (Mac M3 → Linux x86_64)
 
