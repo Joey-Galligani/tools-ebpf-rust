@@ -1,6 +1,4 @@
-# Tools using eBPF in Rust
-
-## 1. Block request from malicious IP
+# Tools Blocking request from malicious IP
 
 Using XDP, this app drop paquets comming malicious IP list.
 

@@ -1,6 +1,10 @@
 [package]
-name = "app"
+name = "xdp-ebpf-requests-blocker"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 
 [dependencies]
+libbpf-rs = "0.26.1"
+
+[build-dependencies]
+libbpf-cargo = "0.26.1"
